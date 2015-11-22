@@ -39,7 +39,7 @@ public class TemplateSpecProcessorTest {
 
     TemplateSpecProcessor processor() {
         try {
-            return TemplateSpecProcessor.fromResource("email-sample.html");
+            return TemplateSpecProcessor.fromResource("jsoup/email-sample.html");
         }
         catch (IOException e) {
            throw new RuntimeException(e);
